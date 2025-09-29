@@ -124,5 +124,5 @@ const server = http.createServer(async (req, res) => {
 });
 
 server.listen(PORT, () => {
-    console.log(`HTTP status server running on http://https://olauncherstatus.onrender.com:${PORT}`);
+    console.log(`HTTP status server running on https://olauncherstatus.onrender.com:${PORT}`);
 });
