@@ -20,12 +20,14 @@ try {
 const HOSTS = [
     "minecraft.net",
     "session.minecraft.net",
-    "account.mojang.com",
+    "api.mojang.com",
     "authserver.mojang.com",
     "sessionserver.mojang.com",
-    "api.mojang.com",
+    "login.microsoftonline.com",
     "textures.minecraft.net",
-    "mojang.com",
+    "pc.realms.minecraft.net",
+    "resources.download.minecraft.net",
+    "libraries.minecraft.net",
 ];
 
 const CUSTOM_CHECKS = {
