@@ -6,7 +6,6 @@ const CACHE_TTL_MS = parseInt(process.env.CACHE_TTL_MS || "30000", 10);
 
 const HOSTS = [
   "minecraft.net",
-  "api.mojang.com",
   "sessionserver.mojang.com",
   "login.microsoftonline.com",
   "textures.minecraft.net",
@@ -23,10 +22,6 @@ const CUSTOM_CHECKS = {
   "api.minecraftservices.com": {
     type: "jsonAny",
     url: "https://api.minecraftservices.com/minecraft/profile/lookup/name/jeb_",
-  },
-  "api.mojang.com": {
-    type: "jsonAny",
-    url: "https://api.mojang.com/users/profiles/minecraft/jeb_",
   },
   "libraries.minecraft.net": {
     type: "urlOk",
